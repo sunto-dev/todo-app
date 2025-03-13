@@ -173,14 +173,14 @@ const TodoApp = () => {
                         day: "2-digit",
                         month: "long",
                         year: "numeric",
-                     })}
+                     })} 📅
                       </span>
                       <span className="text-sm text-gray-600">
                       เวลา {new Date(task.timestamp).toLocaleTimeString("th-TH", {
                         hour: "2-digit",
                         minute: "2-digit",
                         hour12: false,
-                    })} น.
+                    })} น.⏰
                       </span>
                   </div>
                 </td>
